@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eparcel ./index.html",
-    "build": "parcel build ./index.html"
+    "dev": "parcel ./index.html --no-cache",
+    "build": "parcel build ./index.html --no-cache"
   },
   "keywords": [],
   "author": "",
